@@ -63,7 +63,7 @@ export default function DrawerAppBar (props) {
       <Box sx={{ display:'flex', flexDirection:'column', paddingLeft:'1rem', paddingTop:'1rem' }}>
             {navLinks.map((link, id) => {
           return(
-              <Link key={id} href={link.path} css={{marginBottom:'1rem'}}>
+              <Link key={navLinks.id} href={link.path} css={{marginBottom:'1rem'}}>
                 {link.name}
               </Link>
           );
@@ -130,7 +130,7 @@ export default function DrawerAppBar (props) {
               const selectedNavItem = "Contact";
               if (link.name != "Contact"){
                 return(
-                  <Link key={id} href={link.path} className={currentRoute === "/" ? "nav.active" : "nonActive"}>
+                  <Link key={navLinks.id} href={link.path} className={currentRoute === "/" ? "nav.active" : "nonActive"}>
                     {link.name}
                   </Link>
         
@@ -139,7 +139,7 @@ export default function DrawerAppBar (props) {
               else{
                 // eslint-disable-next-line react/jsx-key
                 return ( <Button size="sm" className="contactButton" color="secondary" css={{ borderRadius: "$xl", marginLeft:'2rem' }}>
-            <Link key={id} href={link.path}
+            <Link key={navLinks.id} href={link.path}
               css={{ color: "primaryLinkText", fontSize: "$md" }}
             >
             {link.name} 
