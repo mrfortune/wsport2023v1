@@ -80,7 +80,7 @@ export default function Home() {
               </Text>
               <Box component="div" sx={{ display: {xs:"block", sm:"block", md:"none", lg:"none", xl:"none"} }}>
  <Image
-                src="blacklady2.png"
+                src="blackLadyexec3.png"
                 width={422}
                 height={422}
                 alt="Black Lady" 
@@ -105,7 +105,7 @@ export default function Home() {
                       viewport={{ once: true }}
                       transition={{ duration: 1 }}
                     ><Image
-                src="blacklady2.png"
+                src="blackLadyexec3.png"
                 width={722}
                 height={722}
                 alt="Black Lady"
