@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <Meta title="WorldShaker Interactive::Home" />
       <Box
-        component="div"
+        component="section"
         className="homeHero"
         padding={0}
         direction="column"
@@ -165,7 +165,8 @@ export default function Home() {
         direction="row"
         display="flex"
         justifyContent="center"
-        component="div"
+        component="section"
+        id="whatWeDo"
         sx={{
           backgroundColor: "#f9f9f9",
           paddingTop: "3rem",
@@ -173,6 +174,9 @@ export default function Home() {
         }}
       >
         <Grid container sx={{ maxWidth: "lg", marginTop: "0" }} spacing={2}>
+        <Grid item xs={12} sm={12} md={12} lg={12} xl={12} pt={0}>
+          <Typography variant="h2" sx={{textAlign:"center"}}> What We Do</Typography>
+          </Grid>
           <Grid item xs={12} sm={6} md={3} lg={3} xl={3} pt={0}>
             <Box component="div" sx={{ textAlign: "center" }}>
               <Image src="discover.png" width={88} height={88} alt=""></Image>
@@ -206,7 +210,7 @@ export default function Home() {
               variant="body1"
               sx={{ color: "#333", textAlign: "left", marginBottom: "0" }}
             >
-              What is the problem that we are solving for? Who, what, where, and
+              What is the problem that we are solving for? Who, what, where, when, and
               why, are central to asking the right questions.
             </Typography>
           </Grid>
@@ -244,7 +248,7 @@ export default function Home() {
               sx={{ color: "#333", textAlign: "left", marginBottom: "0" }}
             >
               We build it. Testing, and delivering the best solution for your
-              project using multiple technology options
+              project using multiple technology options.
             </Typography>
           </Grid>
         </Grid>
@@ -254,12 +258,12 @@ export default function Home() {
         direction="row"
         display="flex"
         justifyContent="center"
-        component="div"
+        component="section"
         sx={{ backgroundColor: "#f1eded" }}
       >
         <Grid container sx={{ maxWidth: "lg" }} spacing={2}>
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mt={8}>
-            <Typography variant="h2" sx={{ color: "#333", textAlign: "left" }}>
+            <Typography variant="h2" sx={{ color: "#333", textAlign: "center" }}>
               Case Studies
             </Typography>
           </Grid>
@@ -274,12 +278,13 @@ export default function Home() {
                   alignItems="center"
                   mb={3}
                 >
-                  <Typography variant="h3">
-                    Westside German Shepherd Rescue
-                  </Typography>
+                  
                 </Box>
                 <Box component="div" display="flex" flexDirection="row" >
-                  <Box component="div" width="33vw">
+                  <Box component="div" width="50vw">
+                    <Typography variant="h3">
+                    Westside German Shepherd Rescue
+                  </Typography>
                     <Typography variant="body1">
                       Read our case study on how we came up with a new design
                       for the very outdated look of sheprescue.org and improved
@@ -298,7 +303,7 @@ export default function Home() {
                       </Link>
                     </Button>
                   </Box>
-                  <Box component="div" width="66vw" p={2}>
+                  <Box component="div" width="50vw" p={2}>
                     <motion.div
                       initial={{ opacity: 0 }}
                       whileInView={{ opacity: 1 }}
@@ -306,10 +311,10 @@ export default function Home() {
                       transition={{ duration: 1 }}
                     >
                       <Image
-                        src="wgsrSite.png"
-                        width={960}
+                        src="wgsrBlob2.png"
+                        width={600}
                         height={600}
-                        alt=""
+                        alt="West-Side German Shepherd Rescue"
                       ></Image>
                     </motion.div>
                   </Box>
@@ -424,12 +429,28 @@ export default function Home() {
                   alignItems="center"
                   mb={3}
                 >
+                 
+                </Box>
+                <Box component="div" display="flex" flexDirection="row" >
+                <Box component="div" width="50vw" p={2}>
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 1 }}
+                    >
+                      <Image
+                        src="fadeBlob2.png"
+                        width={600}
+                        height={600}
+                        alt=""
+                      ></Image>
+                    </motion.div>
+                  </Box>
+                  <Box component="div" width="50vw"> 
                   <Typography variant="h3">
                     Fade Technology Solutions
                   </Typography>
-                </Box>
-                <Box component="div" display="flex" flexDirection="row" >
-                  <Box component="div" width="33vw">
                     <Typography variant="body1">
                       Fade Technology Solutions needed a dashboard solution
                       designed to manage their campaigns, users, brands, and
@@ -449,21 +470,7 @@ export default function Home() {
                       </Link>
                     </Button>
                   </Box>
-                  <Box component="div" width="66vw" p={2}>
-                    <motion.div
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1 }}
-                    >
-                      <Image
-                        src="fadeTech.png"
-                        width={960}
-                        height={600}
-                        alt=""
-                      ></Image>
-                    </motion.div>
-                  </Box>
+                 
                 </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mb={8}>
@@ -475,10 +482,11 @@ export default function Home() {
                   alignItems="center"
                   mb={3}
                 >
-                  <Typography variant="h3">The Winery, Brooklyn</Typography>
+               
                 </Box>
                 <Box component="div" display="flex" flexDirection="row" >
-                  <Box component="div" width="33vw">
+                  <Box component="div" width="50vw">   
+                  <Typography variant="h3">The Winery, Brooklyn</Typography>
                     <Typography variant="body1">
                       The Winery, Brooklyn is opening a new wine store in the
                       Prospect Leffertys-Gardens area of Brooklyn and needs a
@@ -500,7 +508,7 @@ export default function Home() {
                       </Link>
                     </Button>
                   </Box>
-                  <Box component="div" width="66vw" p={2}>
+                  <Box component="div" width="50vw" p={2}>
                     <motion.div
                       initial={{ opacity: 0 }}
                       whileInView={{ opacity: 1 }}
@@ -508,8 +516,8 @@ export default function Home() {
                       transition={{ duration: 1 }}
                     >
                       <Image
-                        src="wineryBK4.png"
-                        width={960}
+                        src="wineBlob2.png"
+                        width={600}
                         height={600}
                         alt=""
                       ></Image>
