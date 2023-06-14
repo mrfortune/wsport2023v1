@@ -74,9 +74,7 @@ export default function Home() {
                   textAlign:'left'
                 }}
               >
-                Solving problems and delivering human-centered,
-                interactive solutions through product design, artificial intelligence, UX researhe and architecture,
-                front-end web development, and digital media content production.
+                Identifying the right problems through user research methodologies to design and deliver human-centered solutions.
               </Text>
               <Box component="div" sx={{ display: {xs:"block", sm:"block", md:"none", lg:"none", xl:"none"} }}>
  <Image

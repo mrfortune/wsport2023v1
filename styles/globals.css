@@ -1,4 +1,4 @@
-@mixin dots($count) {
+/* @mixin dots($count) {
   $text-shadow: ();
   @for $i from 0 through $count {
     $text-shadow: $text-shadow,
@@ -10,7 +10,7 @@
         hsla(random() * 360, 100%, 50%, 0.9);
   }
   text-shadow: $text-shadow;
-}
+} */
 
 html,
 body {
