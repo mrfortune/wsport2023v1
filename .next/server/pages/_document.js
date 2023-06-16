@@ -1,17 +1,11 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/_document";
-exports.ids = ["pages/_document"];
+exports.id = 660;
+exports.ids = [660];
 exports.modules = {
 
+<<<<<<< Updated upstream
 /***/ "./node_modules/next/dist/build/webpack/loaders/next-route-loader/helpers.js":
 /*!***********************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/helpers.js ***!
@@ -129,31 +123,138 @@ eval("/**\n * @license React\n * react-jsx-dev-runtime.development.js\n *\n * Co
 
 "use strict";
 eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs/react-jsx-dev-runtime.development.js */ \"./node_modules/react/cjs/react-jsx-dev-runtime.development.js\");\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvcmVhY3QvanN4LWRldi1ydW50aW1lLmpzIiwibWFwcGluZ3MiOiJBQUFhOztBQUViLElBQUksS0FBcUMsRUFBRSxFQUUxQyxDQUFDO0FBQ0YsRUFBRSx1SkFBc0U7QUFDeEUiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mcmFtZXJuZXh0djIvLi9ub2RlX21vZHVsZXMvcmVhY3QvanN4LWRldi1ydW50aW1lLmpzPzU3NzciXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xuXG5pZiAocHJvY2Vzcy5lbnYuTk9ERV9FTlYgPT09ICdwcm9kdWN0aW9uJykge1xuICBtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoJy4vY2pzL3JlYWN0LWpzeC1kZXYtcnVudGltZS5wcm9kdWN0aW9uLm1pbi5qcycpO1xufSBlbHNlIHtcbiAgbW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKCcuL2Nqcy9yZWFjdC1qc3gtZGV2LXJ1bnRpbWUuZGV2ZWxvcG1lbnQuanMnKTtcbn1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/react/jsx-dev-runtime.js\n");
+=======
+/***/ 2520:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _document)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+// EXTERNAL MODULE: ./node_modules/next/document.js
+var next_document = __webpack_require__(6859);
+;// CONCATENATED MODULE: external "@emotion/server/create-instance"
+const create_instance_namespaceObject = require("@emotion/server/create-instance");
+var create_instance_default = /*#__PURE__*/__webpack_require__.n(create_instance_namespaceObject);
+// EXTERNAL MODULE: ./utility/createEmotionCache.js + 1 modules
+var createEmotionCache = __webpack_require__(1921);
+;// CONCATENATED MODULE: ./pages/_document.js
+
+
+
+
+
+class MyDocument extends next_document["default"] {
+    // static async getInitialProps(ctx) {
+    //   const originalRenderPage = ctx.renderPage;
+    //   // Run the React rendering logic synchronously
+    //   ctx.renderPage = () =>
+    //     originalRenderPage({
+    //       // Useful for wrapping the whole react tree
+    //       enhanceApp: (App) => App,
+    //       // Useful for wrapping in a per-page basis
+    //       enhanceComponent: (Component) => Component,
+    //     });
+    //   // Run the parent `getInitialProps`, it now includes the custom `renderPage`
+    //   const initialProps = await Document.getInitialProps(ctx);
+    //   return initialProps;
+    // }
+    render() {
+        return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(next_document.Html, {
+            lang: "en",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                    name: "viewport",
+                    content: "width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(next_document.Head, {
+                    children: [
+                        this.props.emotionStyleTags,
+                        /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                            rel: "preconnect",
+                            href: "https://fonts.googleapis.com"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                            href: "https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap",
+                            rel: "stylesheet"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(next_document.Main, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(next_document.NextScript, {})
+                    ]
+                })
+            ]
+        });
+    }
+}
+MyDocument.getInitialProps = async (ctx)=>{
+    const originalRenderPage = ctx.renderPage;
+    const cache = (0,createEmotionCache/* default */.Z)();
+    const { extractCriticalToChunks  } = create_instance_default()(cache);
+    ctx.renderPage = ()=>originalRenderPage({
+            enhanceApp: (App)=>function EnhanceApp(props) {
+                    return /*#__PURE__*/ jsx_runtime_.jsx(App, {
+                        emotionCache: cache,
+                        ...props
+                    });
+                }
+        });
+    const initialProps = await next_document["default"].getInitialProps(ctx);
+    const emotionStyles = extractCriticalToChunks(initialProps.html);
+    const emotionStyleTags = emotionStyles.styles.map((style)=>/*#__PURE__*/ jsx_runtime_.jsx("style", {
+            "data-emotion": `${style.key} ${style.ids.join(" ")}`,
+            dangerouslySetInnerHTML: {
+                __html: style.css
+            }
+        }, style.key));
+    return {
+        ...initialProps,
+        emotionStyleTags
+    };
+};
+/* harmony default export */ const _document = (MyDocument);
+
 
 /***/ }),
 
-/***/ "@emotion/cache":
-/*!*********************************!*\
-  !*** external "@emotion/cache" ***!
-  \*********************************/
-/***/ ((module) => {
+/***/ 1921:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+>>>>>>> Stashed changes
 
-"use strict";
-module.exports = require("@emotion/cache");
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ utility_createEmotionCache)
+});
+
+;// CONCATENATED MODULE: external "@emotion/cache"
+const cache_namespaceObject = require("@emotion/cache");
+var cache_default = /*#__PURE__*/__webpack_require__.n(cache_namespaceObject);
+;// CONCATENATED MODULE: ./utility/createEmotionCache.js
+
+const createEmotionCache = ()=>{
+    return cache_default()({
+        key: "css",
+        prepend: true
+    });
+};
+/* harmony default export */ const utility_createEmotionCache = (createEmotionCache);
+
 
 /***/ }),
 
-/***/ "@emotion/server/create-instance":
-/*!**************************************************!*\
-  !*** external "@emotion/server/create-instance" ***!
-  \**************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@emotion/server/create-instance");
-
-/***/ }),
-
+<<<<<<< Updated upstream
 /***/ "../route-module":
 /*!************************************************************************!*\
   !*** external "next/dist/server/future/route-modules/route-module.js" ***!
@@ -169,24 +270,23 @@ module.exports = require("next/dist/server/future/route-modules/route-module.js"
 /*!*****************************************************!*\
   !*** external "next/dist/server/get-page-files.js" ***!
   \*****************************************************/
+=======
+/***/ 4140:
+>>>>>>> Stashed changes
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/get-page-files.js");
 
 /***/ }),
 
-/***/ "../server/htmlescape":
-/*!*************************************************!*\
-  !*** external "next/dist/server/htmlescape.js" ***!
-  \*************************************************/
+/***/ 9716:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/htmlescape.js");
 
 /***/ }),
 
+<<<<<<< Updated upstream
 /***/ "../../../render":
 /*!*********************************************!*\
   !*** external "next/dist/server/render.js" ***!
@@ -202,55 +302,65 @@ module.exports = require("next/dist/server/render.js");
 /*!********************************************!*\
   !*** external "next/dist/server/utils.js" ***!
   \********************************************/
+=======
+/***/ 6368:
+>>>>>>> Stashed changes
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/utils.js");
 
 /***/ }),
 
-/***/ "../shared/lib/constants":
-/*!****************************************************!*\
-  !*** external "next/dist/shared/lib/constants.js" ***!
-  \****************************************************/
+/***/ 6724:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/constants.js");
 
 /***/ }),
 
+<<<<<<< Updated upstream
 /***/ "../shared/lib/html-context":
 /*!*******************************************************!*\
   !*** external "next/dist/shared/lib/html-context.js" ***!
   \*******************************************************/
+=======
+/***/ 2796:
 /***/ ((module) => {
 
-"use strict";
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 8743:
+>>>>>>> Stashed changes
+/***/ ((module) => {
+
 module.exports = require("next/dist/shared/lib/html-context.js");
 
 /***/ }),
 
-/***/ "../shared/lib/is-plain-object":
-/*!**********************************************************!*\
-  !*** external "next/dist/shared/lib/is-plain-object.js" ***!
-  \**********************************************************/
+/***/ 8524:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react");
 
+<<<<<<< Updated upstream
+=======
+/***/ }),
+
+/***/ 997:
+/***/ ((module) => {
+
+module.exports = require("react/jsx-runtime");
+
+>>>>>>> Stashed changes
 /***/ })
 
 };
@@ -260,7 +370,11 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+<<<<<<< Updated upstream
 var __webpack_exports__ = (__webpack_exec__("./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?page=%2F_document&absolutePagePath=private-next-pages%2F_document&preferredRegion=&middlewareConfig=e30%3D!"));
+=======
+var __webpack_exports__ = __webpack_require__.X(0, [377,952,859], () => (__webpack_exec__(2520)));
+>>>>>>> Stashed changes
 module.exports = __webpack_exports__;
 
 })();
