@@ -1,23 +1,7 @@
 {
   "/_app": "pages/_app.js",
-<<<<<<< Updated upstream
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/404": "pages/404.js",
   "/": "pages/index.js"
-=======
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html",
-  "/Wine": "pages/Wine.html",
-  "/Wsgr": "pages/Wsgr.html",
-  "/api/hello": "pages/api/hello.js",
-  "/contact": "pages/contact.html",
-  "/fade-solutions": "pages/fade-solutions.html",
-  "/": "pages/index.html",
-  "/media": "pages/media.html",
-  "/page-template": "pages/page-template.html",
-  "/story": "pages/story.html",
-  "/west-side-german-shepherd": "pages/west-side-german-shepherd.html",
-  "/wine-store": "pages/wine-store.html",
-  "/_error": "pages/_error.js"
->>>>>>> Stashed changes
 }
